@@ -4,6 +4,9 @@
 // Every Pizza made will start as a PlainPizza
 
 public class PlainPizza implements Pizza {
+    public PlainPizza() {
+        System.out.println("Adding Dough");
+    }
 
     public String getDescription() {
 
