@@ -1,0 +1,36 @@
+1.Start by explaining that we are making an application for a pizzeria where the customer car oder a pizza with
+different kinds of toppings.
+
+2.Present the UML Diagram using Inheritance.
+
+3.Say that Inheritance is not a good approach because for each kind of pizza, there must be different subclasses and
+this would make the code more complex. Imagine if you want to change the price, using Inheritance this has to be done
+for each subclass and that's not the best option. And using Inheritance, you cannot add functionality at runtime.
+
+Add Topping = New Class -> Not that good!
+
+4.Show the image regarding "What is the Decorator Pattern" and read the points.
+
+5.Present the UML Diagram using the Decorator Pattern.
+
+6.Show the classes in the following order:
+-Pizza Interface
+-PizzaBasic - Dough
+-ToppingDecorator - Adder
+-Mozzarella - Added
+-TomatoSauce - Added
+-PizzaMaker - Mention the Wrapper!
+
+Mention the price change capability
+Mention that no code was altered, but added
+Repeating the advantage of the code flexibility
+And also the capability of provide changes during runtime
+
+7.Mention when to use it and when not
+Examples on when to use it:
+-Coffee with toppings like in Starbucks (Coffee with Milk, Caramel, Ice, Sweeteners,...)
+-People adding clothes according to the weather(Cold: Jacket, Rain: Rain Jacket...)
+-Adding objects to a car(Doors, Wheels, Mirrors,...)
+
+Examples when not to use it:
+

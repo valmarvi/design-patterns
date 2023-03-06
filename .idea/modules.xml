@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/decorator/decorator.iml" filepath="$PROJECT_DIR$/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/decorator/pizzaria/pizzaria.iml" filepath="$PROJECT_DIR$/decorator/pizzaria/pizzaria.iml" />
     </modules>
   </component>
 </project>
